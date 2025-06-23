@@ -1,9 +1,7 @@
-import Page from './Page/Page'
+import Page from './app/page'
 function App() {
   return(
-    
      <Page/>
-    
   )
   
 }
