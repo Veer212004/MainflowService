@@ -1,12 +1,55 @@
-# React + Vite
+# 🔐 Task 4: Secure Login Page using MERN Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the implementation of a **secure login system** built using the **MERN Stack** (MongoDB, Express.js, React.js, Node.js). The task was completed as part of my internship at **Main Flow Services and Technologies Pvt. Ltd.**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- ✅ Full-stack **login functionality**
+- 🔐 **Secure user authentication** using Express & MongoDB
+- 🔗 **Frontend–Backend integration** with Axios
+- 🧠 State management using React Hooks
+- 📁 Well-structured project separation (frontend/backend)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Technology       |
+|-------------|------------------|
+| Frontend    | React.js         |
+| Backend     | Node.js, Express |
+| Database    | MongoDB (Mongoose) |
+| Styling     | CSS              |
+| Tools       | Postman, VS Code |
+
+---
+
+## 🚀 How It Works
+
+1. **User enters credentials** in the React login form.
+2. **Frontend sends a request** to the Node.js backend using Axios.
+3. **Backend validates credentials** with MongoDB.
+4. On success, user is authenticated and login state is managed.
+
+---
+
+## 📂 Folder Structure
+
+Task-four/
+│
+├── Backend/
+│ ├── models/
+│ ├── routes/
+│ ├── server.js
+│ └── .env
+│
+├── src/
+│ ├── components/
+│ ├── App.jsx
+│ └── main.jsx
+│
+├── package.json
+├── index.html
+└── vite.config.js
