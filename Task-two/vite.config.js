@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react'
 import tsconfigPaths from 'vite-tsconfig-paths'
 
 export default defineConfig({
-  base: "/MainflowService/", // ✅ your repo name
+  base: "/MainflowService/", // ✅ Correct base for GitHub Pages
   plugins: [
-    react(),
-    tsconfigPaths(),          // ✅ enables @ alias from jsconfig.json
+    react(),                 // ✅ React support
+    tsconfigPaths(),         // ✅ Supports @ paths from jsconfig/tsconfig
   ],
 })
