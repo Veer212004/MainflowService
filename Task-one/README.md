@@ -45,21 +45,7 @@ This task focuses on setting up a foundational ReactJS application to understand
 
 ---
 
-## 📁 Project Structure
 
-my-react-app/
-├── public/
-│ └── index.html
-├── src/
-│ ├── App.js
-│ ├── index.js
-│ ├── components/
-│ │ └── MyComponent.jsx
-│ └── App.css
-├── .gitignore
-├── package.json
-├── package-lock.json
-└── README.md
 ---
 
 ## ✨ Key Concepts Learned
